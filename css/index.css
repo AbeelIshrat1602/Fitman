@@ -10,7 +10,7 @@
   text-decoration: none;
   outline: none;
   border: none;
-  text-transform: capitalize;
+  text-transform: none;
   -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
@@ -1013,7 +1013,7 @@ hr {
 .banner h3 {
   padding-top: 1rem;
   color: #fff;
-  text-transform: uppercase;
+  text-transform: none;
   font-size: 3.5rem;
 }
 
