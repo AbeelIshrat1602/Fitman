@@ -13,7 +13,7 @@ async function fetchData(element) {
     showLoading();
 
 
-    const response = await fetch("http://localhost:5050/experts/page/1"); // Replace with your API endpoint
+    const response = await fetch("https://fitman-plus-backed.onrender.com/experts/page/1"); // Replace with your API endpoint
     if (!response.ok) {
       throw new Error("Network response was not ok");
     }
@@ -35,7 +35,7 @@ async function filterByCategory(element,category) {
   try {
     showLoading();
 
-    const response = await fetch("http://localhost:5050/experts/"+category+"/page/1"); // Replace with your API endpoint
+    const response = await fetch("https://fitman-plus-backed.onrender.com/experts/" + category + "/page/1"); // Replace with your API endpoint
     if (!response.ok) {
       throw new Error("Network response was not ok");
     }
